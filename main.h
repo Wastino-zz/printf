@@ -24,4 +24,12 @@ int print_char(va_list list);
 int print_string(va_list list);
 int (*get_func(char fmt))(va_list);
 int _putchar(char c);
+int print_number(va_list args);
+int print_unsgined_number(unsigned int n);
+int hex_check(int num, char x);
+int print_heX(va_list list);
+int print_hex(va_list list);
+int print_octal(va_list list);
+int print_binary(va_list list);
+
 #endif
