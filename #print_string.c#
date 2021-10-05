@@ -1,0 +1,10 @@
+#include "main.h"
+
+int print_string(char *m)
+{
+  int n;
+  char print;
+
+  for (n = 0; n < strlen(m); n++)
+    _putchar();
+}
