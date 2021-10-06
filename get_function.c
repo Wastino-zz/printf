@@ -9,7 +9,7 @@
 int (*get_func(char fmt))(va_list)
 {
 int i = 0;
-specifier print_ops[] = {
+format_s print_ops[] = {
 {'c', print_char},
 {'s', print_string},
 {'d', print_num},
