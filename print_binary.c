@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 int hex_check(int, char);
 
@@ -33,7 +33,7 @@ int print_binary(va_list list)
 		num = num / 2;
 	}
 	str[i] = '\0';
-	rev_str = rev_string(str);
+	rev_str = print_string(str);
 	if (rev_str == NULL)
 		return (-1);
 	write_base(rev_str);
@@ -72,7 +72,7 @@ int print_octal(va_list list)
 
 	}
 	octal_rep[len] = '\0';
-	rev_str = rev_string(octal_rep);
+	rev_str = print_string(octal_rep);
 	if (rev_str == NULL)
 		return (-1);
 
