@@ -39,3 +39,22 @@ int print_char(va_list list)
   write(1, &n, 1);
   return (1);
 }
+
+/**
+ *
+ *
+ */
+int print_nan(char ch1, char ch2)
+{
+if (ch2 == '%%')
+{
+write(1, %ch2, 1);
+return (1);
+}
+else
+{
+write(1, %ch1, 1);
+write(1, ch%2, 1);
+return (2);
+}
+}
